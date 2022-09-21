@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@700 & family= Lobster & display=swap');
+
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-image: url("https://images3.alphacoders.com/774/774375.jpg");
+    background-attachment: scroll, fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 100%;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.img-menu{
+    height:150px;
+    width: 300px;
+}
+
+.texto-menu{
+    display: inline;
+    gap: 30px;
+}
+
+.itens-menu{
+    font-family: 'Lobster', cursiva;
+    color: #fff2E7;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.texto-menu a:hover{
+    background-color: rgb(232, 119, 245);
+    transition:0.3s all;
+    border: none;
+    box-shadow: 5px 6px 5px rgba(0,0,0,0.25);
+    border-radius: 25px;
+}
+
+.metade{
+    margin-bottom: 50px;
+    border-top: 3px double #fff2E7;
+}
+
+.parte-1{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.texto-p1{
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+}
+
+.titulo{
+    font-family: 'Lobster', cursiva;
+    font-weight: 700S;
+    font-size: 100px;
+    color: #fff2E7;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color:black;
+}
+
+.titulo-2{
+    font-family: 'Dancing Script', cursiva;
+    color: #fff2E7;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.img{
+    width: 600px;
+    height: 600px;
+    padding: 30px; 
+    display: flex;
+}
+
+.conteudo-2{
+    border-top: 3px double #fff2E7;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.texto-p2{
+    font-family: 'Lobster', cursiva;
+    font-weight: 200;
+    font-size: 50px;
+    color: #eeeeee;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px 6px #000000;
+}
+.texto-p3{
+    font-family: 'Lobster', cursiva;
+    font-weight: 200;
+    font-size: 50px;
+    color: #eeeeee;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.texto-rodape{
+    font-family: 'Lobster', cursiva;
+    font-weight: 200;
+    font-size: 50px;
+    color: #eeeeee;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    text-shadow: 1px 1px 6px #000000;
+}
+
+.texto-3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff7f7;
+    font-weight: 600;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color:black;
+}
+
+.texto-4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff7f7;
+    font-weight: 600;
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color:black;
+}
+
+.img-rodape{
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+   
+   }
+
+   .formulario{
+       width: 400px;
+       padding: 30px;
+   }
+   .nome-for{
+       padding-left: 10px;
+       font-size: 1.1em;
+       display: block;
+       width: 100%;
+       font-family: 'Lobster', cursiva;
+       font-weight: 300;
+       font-size: 20px;
+       color: #fff2E7;
+       -webkit-text-stroke-width: 0.4px;
+       -webkit-text-stroke-color:black;
+   }
+   
+   .tel-for{
+       padding-left: 10px;
+       font-size: 1.1em;
+       display: block;
+       width: 100%;
+       font-family: 'Lobster', cursiva;
+       font-weight: 300;
+       font-size: 20px;
+       color: #fff2E7;
+       -webkit-text-stroke-width: 0.4px;
+       -webkit-text-stroke-color:black;
+   }
+   
+   .email-for{
+       padding-left: 10px;
+       font-size: 1.1em;
+       display: block;
+       width: 100%;
+       font-family: 'Lobster', cursiva;
+       font-weight: 300;
+       font-size: 20px;
+       color: #fff2E7;
+       -webkit-text-stroke-width: 0.4px;
+       -webkit-text-stroke-color:black;
+   }
+   
+   .comentario{
+       width: auto;
+       display: inline-block;
+       padding-left: 10px;
+       font-size: 1.1em;
+       display: inline;
+       flex-wrap: nowrap;
+       width: 100%;
+       font-family: 'Lobster', cursiva;
+       font-weight: 300;
+       font-size: 17px;
+       color: #fff2E7;
+       -webkit-text-stroke-width: 0.4px;
+       -webkit-text-stroke-color:black;
+   }
+   
+   .mg-for label{
+   
+       width: auto;
+       font-family: 'Lobster', cursiva;
+       font-weight: 200;
+       font-size: 20px;
+       color: #ffffff;
+       -webkit-text-stroke-width: 0.2px;
+       -webkit-text-stroke-color:rgb(0, 0, 0);
+   }
+   
+   input[type=text],
+   input[type=email],
+   textarea{
+       width: 100%;
+       padding-left: 10px;
+       height: 30px;
+       line-height: 30px;
+       border-radius: 15px;
+       border: 1px solid #ccc;
+       outline: none;
+   }
+   input#nao{
+       margin-left: 30px;
+   }
+   textarea{
+       line-height: 20px;
+       padding: 10px;
+       height: 90px;
+       resize: none;
+   }
+   input[type=submit]{
+       display: block;
+       background-color:  #04296d;
+       height: 35px;
+       border: none;
+       outline: 0;
+       cursor: pointer;
+       width: 100px;
+       margin: 0 auto;
+       text-align: center;
+       border-radius: 15px;
+       font-family: 'Lobster', cursiva;
+       font-weight: 300;
+       font-size: 30px;
+       color: #fff2E7;
+       -webkit-text-stroke-width: 0.4px;
+       -webkit-text-stroke-color:black;
+       box-shadow: 5px 6px 5px rgba(0,0,0,0.25);
+       margin-bottom: 5px;
+   }
+   
+   input[type=submit]:hover{
+       background-color: rgb(81, 5, 90);
+       transition:0.3s all;
+   }
+   
+   .img-contato{
+      
+       height: 500px;
+       display: block;
+       margin: 0 auto;
+   }   
